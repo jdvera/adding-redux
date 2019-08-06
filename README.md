@@ -3,7 +3,7 @@
 ### New npm's
 - `redux`: The base Redux logic.  It is not reliant or specific to React, and can be used independently from it
 - `react-redux`: Since redux and react are not inherently related, this allows us to connect our react app to our redux store
-- `redux-logger`: A Middleware that creates useful logs in the browser's console whenever the redux store is updated
+- `redux-logger`: A Middleware that creates useful logs in the browser's console whenever a Redux action is ran
 
 ### New Folders/Files
 - `client/src/reducers`: Where we define the different reducers in our redux instance.  You can think of this as *slightly* similar to models in Sequelize/Mongoose.
